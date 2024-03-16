@@ -10,6 +10,54 @@ header{
     width: 100%;
     background-color: #222222;
 }
+
 main{
     background-color: #141414;
+    height: 700px;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left-big{
+    width: 60%;
+    height: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.left-big > h4 {
+    color: white;
+    font-size: 18pt;
+    font-family: Arial, serif;
+    text-align: center;
+}
+.left-big > p {
+    color: #bbbbbb;
+    font-size: 11pt;
+    font-family: Arial, serif;
+    text-align: center;
+    margin-top: 10px;
+}
+.pics-of-phones{
+    background-color: antiquewhite;
+    height: 60%;
+    width: 70%;
+    margin: 6% auto;
+    display: flex;
+}
+.pics-of-phones > img{
+    height: 100%;
+    width: 60%;
+    margin: 6% auto;
+}
+
+.right-big{
+    width: 40%;
+    height: 100%;
+    background-color: lightgreen;
 }
