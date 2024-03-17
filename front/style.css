@@ -69,7 +69,7 @@ main{
 .left-big > p {
     /*color: #bbbbbb;*/
     color: #626d7a;
-    font-size: 11pt;
+    font-size: 10pt;
     font-family: Arial, serif;
     text-align: center;
     margin-top: 10px;
@@ -100,6 +100,30 @@ main{
     width: 40%;
     height: 100%;
     /*background-color: lightgreen;*/
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5%;
+}
+.right-big a{
+    font-family: Arial, serif;
+    font-size: 10pt;
+    text-align: center;
+    text-decoration: none;
+    color: #818c99;
+}
+.right-big-auth{
+    border-radius: 15px;
+    background-color: white;
+    width: 75%;
+    height: 60%;
+    margin: 0 auto;
+}
+.right-big-reg{
+    border-radius: 15px;
+    background-color: white;
+    width: 75%;
+    height: 30%;
+    margin: 5% auto;
 }
 .phone-black{
     position: relative;
@@ -118,13 +142,18 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 50%;
-    margin: 0 auto;
+    margin: 1.5% auto;
 }
 footer a{
     text-decoration: none;
     color: #2d6397;
-    padding: 10px;
+    padding: 0 5px 0 5px;
     margin: 0 auto;
     font-family: Arial, serif;
     font-size: 10pt;
+}
+.VK span{
+    font-family: Arial, serif;
+    font-size: 10pt;
+    color: #626d7a;
 }
