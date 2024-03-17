@@ -5,14 +5,27 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #edeef0;
+}
+
 header{
     height: 50px;
     width: 100%;
-    background-color: #222222;
+    margin: 0 auto;
+    /*background-color: #222222;*/
+    background-color: #ffffff;
+}
+
+.headers-container{
+    height: 50px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 main{
-    background-color: #141414;
+    /*background-color: #141414;*/
+    background-color: #edeef0;
     height: 700px;
 }
 .container{
@@ -25,39 +38,77 @@ main{
 .left-big{
     width: 60%;
     height: 100%;
-    background-color: lightblue;
+    /*background-color: lightblue;*/
     display: flex;
     flex-direction: column;
     padding-top: 30px;
 }
 .left-big > h4 {
-    color: white;
+    /*color: white;*/
+    color: black;
     font-size: 18pt;
     font-family: Arial, serif;
     text-align: center;
 }
 .left-big > p {
-    color: #bbbbbb;
+    /*color: #bbbbbb;*/
+    color: #626d7a;
     font-size: 11pt;
     font-family: Arial, serif;
     text-align: center;
     margin-top: 10px;
 }
+.left-big a{
+    text-decoration: none;
+    color: #2d6397;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: Arial, serif;
+    font-size: 10pt;
+}
 .pics-of-phones{
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
     height: 60%;
     width: 70%;
-    margin: 6% auto;
+    margin: 6% auto 2% auto;
     display: flex;
 }
-.pics-of-phones > img{
-    height: 100%;
+.buttons-for-mob-markets{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
     width: 60%;
-    margin: 6% auto;
 }
 
 .right-big{
     width: 40%;
     height: 100%;
-    background-color: lightgreen;
+    /*background-color: lightgreen;*/
+}
+.phone-black{
+    position: relative;
+    height: 96%;
+    width: 45%;
+    z-index: 0;
+}
+.phone-white{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    z-index: 1;
+    right: 7%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+footer a{
+    text-decoration: none;
+    color: #2d6397;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: Arial, serif;
+    font-size: 10pt;
 }
