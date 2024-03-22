@@ -157,3 +157,6 @@ footer a{
     font-size: 10pt;
     color: #626d7a;
 }
+a:hover{
+    text-decoration: underline;
+}
