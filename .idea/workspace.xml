@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3eea5086-9d9d-4056-894e-adf4d5b65aac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/runtime-809b-3/IdeaProjects/vk_html_practice",
+    "last_opened_file_path": "C:/Users/runtime-809b-3/IdeaProjects/Adilkhan-2000",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -48,7 +46,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710661662380</updated>
-      <workItem from="1710661663784" duration="4188000" />
+      <workItem from="1710661663784" duration="4364000" />
+      <workItem from="1710774339618" duration="39000" />
     </task>
     <servers />
   </component>
