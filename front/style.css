@@ -19,7 +19,7 @@ header{
 
 .headers-container{
     height: 50px;
-    width: 50%;
+    width: 53%;
     margin: 0 auto;
 }
 .headers-container a{
@@ -59,6 +59,7 @@ main{
     display: flex;
     flex-direction: column;
     padding-top: 30px;
+    text-align: center;
 }
 .left-big > h4 {
     /*color: white;*/
@@ -86,9 +87,10 @@ main{
 .pics-of-phones{
     /*background-color: antiquewhite;*/
     height: 60%;
-    width: 70%;
     margin: 6% auto 2% auto;
     display: flex;
+    text-align: center;
+    padding-left: 30px;
 }
 .buttons-for-mob-markets{
     margin: 0 auto;
@@ -124,13 +126,11 @@ main{
 .phone-black{
     position: relative;
     height: 96%;
-    width: 45%;
     z-index: 0;
 }
 .phone-white{
     position: relative;
     height: 100%;
-    width: 50%;
     z-index: 1;
     right: 7%;
 }
@@ -175,7 +175,7 @@ a:hover{
 .right-big-reg > button{
     padding: 0 16px;
     text-align: center;
-    height: 40px;
+    height: 36px;
     width: 100%;
     border-radius: 8px;
     font-size: 11pt;
@@ -187,8 +187,7 @@ a:hover{
     color: white;
 }
 .create-acc:hover{
-    background-color: #40bd40;
-    color: #e8e8e8;
+    opacity: .88;
 }
 
 .acc-for-business{
@@ -209,4 +208,104 @@ a:hover{
 .right-big-reg > a {
     font-size: 10.5pt;
     color: #939393;
+}
+
+.right-big-auth{
+    padding: 32px 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo2{
+    height: 50px;
+    width: auto;
+    margin: 0 auto;
+}
+.auth-text{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: Arial, serif;
+}
+
+.login-form > button{
+    padding: 0 16px;
+    text-align: center;
+    height: 36px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 11pt;
+    background-color: #0076fe;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.login-form > button:hover{
+    opacity: .88;
+}
+.email{
+    height: 36px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #f0f2f5;
+    border: 1px solid grey;
+    padding-left: 15px;
+}
+.save{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+.save > label {
+    padding-left: 8px;
+    color: #86919d;
+    font-size: 11pt;
+}
+
+.qr-panel{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    margin-top: 24px;
+    margin-bottom: -8px;
+    border-top: 0.5px solid #d3d3d3;
+    display: flex;
+    flex-direction: row;
+}
+.qr-image > img{
+    height: 80px;
+    width: auto;
+}
+
+.qr-texts{
+    margin-left: 8px;
+    margin-top: 6px;
+    flex-flow: column;
+    justify-content: center;
+    text-align: left;
+}
+.qr-texts > a{
+    color: #2d81e0;
+}
+
+.span-bold{
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Arial, serif;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.span-light{
+    display: block;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: Arial, serif;
+    margin-bottom: 6px;
+    color: #6d7885;
 }
