@@ -45,14 +45,15 @@ main{
     height: 700px;
 }
 .container{
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
     height: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .left-big{
-    width: 60%;
+    width: 70%;
     height: 100%;
     /*background-color: lightblue;*/
     display: flex;
@@ -97,11 +98,12 @@ main{
 }
 
 .right-big{
-    width: 40%;
+    width: 50%;
     height: 100%;
     /*background-color: lightgreen;*/
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding-top: 2.5%;
 }
 .right-big a{
@@ -118,13 +120,7 @@ main{
     height: 60%;
     margin: 0 auto;
 }
-.right-big-reg{
-    border-radius: 15px;
-    background-color: white;
-    width: 75%;
-    height: 30%;
-    margin: 5% auto;
-}
+
 .phone-black{
     position: relative;
     height: 96%;
@@ -155,5 +151,62 @@ footer a{
 .VK span{
     font-family: Arial, serif;
     font-size: 10pt;
-    color: #626d7a;
+    color: #6b727c;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+.right-big-reg{
+    border-radius: 15px;
+    background-color: white;
+    width: 75%;
+    height: 33%;
+    margin: 0 auto;
+    font-family: Tahoma, serif;
+    padding: 32px 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-big-reg > button{
+    padding: 0 16px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 11pt;
+
+}
+.create-acc{
+    background-color: #45ce45;
+    border: none;
+    color: white;
+}
+.create-acc:hover{
+    background-color: #40bd40;
+    color: #e8e8e8;
+}
+
+.acc-for-business{
+    background-color: transparent;
+    border: 2px solid #2182af;
+    color: #2182af;
+}
+
+.acc-for-business:hover{
+    background-color: #eeeeee;
+    color: #186380;
+}
+
+.right-big-reg > p {
+    font-size: 10.5pt;
+    color: #adacb6;
+}
+.right-big-reg > a {
+    font-size: 10.5pt;
+    color: #939393;
 }
