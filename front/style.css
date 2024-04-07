@@ -79,7 +79,6 @@ main{
 .left-big a{
     text-decoration: none;
     color: #2d6397;
-    padding: 10px;
     margin: 0 auto;
     font-family: Arial, serif;
     font-size: 10pt;
@@ -97,6 +96,20 @@ main{
     display: flex;
     justify-content: space-between;
     width: 60%;
+}
+.buttons-for-mob-markets > a{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+}
+
+
+.buttons-for-mob-markets > a:hover{
+    color: #256ec0;
+    background-color: #ebf1f9;
+    text-decoration: none;
 }
 
 .right-big{
@@ -189,6 +202,9 @@ a:hover{
 .create-acc:hover{
     opacity: .88;
 }
+.create-acc:active{
+    padding-top: 2px;
+}
 
 .acc-for-business{
     background-color: transparent;
@@ -199,6 +215,9 @@ a:hover{
 .acc-for-business:hover{
     background-color: #eeeeee;
     color: #186380;
+}
+.acc-for-business:active{
+    padding-top: 2px;
 }
 
 .right-big-reg > p {
@@ -248,6 +267,9 @@ a:hover{
 .login-form > button:hover{
     opacity: .88;
 }
+.login-form > button:active{
+    padding-top: 2px;
+}
 .email{
     height: 36px;
     width: 100%;
@@ -260,11 +282,17 @@ a:hover{
     margin-top: 12px;
     display: flex;
     align-items: center;
+    width: 120px;
+    height: 10px;
 }
 .save > label {
     padding-left: 8px;
     color: #86919d;
     font-size: 11pt;
+    cursor: default;
+}
+.save:hover{
+    cursor: pointer;
 }
 
 .qr-panel{
@@ -308,4 +336,34 @@ a:hover{
     font-family: Arial, serif;
     margin-bottom: 6px;
     color: #6d7885;
+}
+
+.all-products{
+    width: 100px;
+    margin: 2% auto;
+}
+
+.all-products > a{
+    display: flex;
+    flex-direction: row;
+}
+
+.all-products > a:hover{
+    text-decoration: none;
+}
+
+.all-products:hover span{
+    text-decoration: underline;
+}
+
+.arrow{
+    position: relative;
+    left: 5px;
+    font-weight: bold;
+    transition-duration: 0.1s;
+}
+.all-products:hover .arrow{
+    transition-duration: 0.1s;
+    text-decoration: none;
+    left: 8px;
 }
